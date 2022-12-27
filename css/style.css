@@ -1,0 +1,254 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 15px;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+
+p {
+  border: 1px solid black;
+  height: 40px;
+  width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  float: right;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  font-size: 125%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clear-style {
+  clear: both;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .book-lg-12, .book-lg-6, .book-lg-4, .book-lg-3, .imdb-lg-12, .imdb-lg-6, .imdb-lg-4, .imdb-lg-3, .switch-lg-12, .switch-lg-6, .switch-lg-4, .switch-lg-3, .switch-lg-2 {
+    float: left;
+    margin-bottom: 10px;
+  }
+  .book-lg-12 {
+    width: 8.1vw;
+    height: 12vw;
+  }
+  .book-lg-6 {
+    width: 16.2vw;
+    height: 24vw;
+  }
+  .book-lg-4 {
+    width: 24.3vw;
+    height: 36vw;
+  }
+  .book-lg-3 {
+    width: 32.4vw;
+    height: 48vw;
+  }
+  .imdb-lg-12 {
+    width: 8.1vw;
+    height: 12vw;
+  }
+  .imdb-lg-6 {
+    width: 16.2vw;
+    height: 24vw;
+  }
+  .imdb-lg-4 {
+    width: 24.3vw;
+    height: 36vw;
+  }
+  .imdb-lg-3 {
+    width: 32.4vw;
+    height: 48vw;
+  }
+  .switch-lg-12 {
+    width: 8.1vw;
+    height: 6vw;
+  }
+  .switch-lg-6 {
+    width: 16.2vw;
+    height: 12vw;
+  }
+  .switch-lg-4 {
+    width: 24.3vw;
+    height: 18vw;
+  }
+  .switch-lg-3 {
+    width: 32.4vw;
+    height: 24vw;
+  }
+  .switch-lg-2 {
+    width: 48.6vw;
+    height: 24vw;
+  }
+  .container-lg {
+    background-color: #808080;
+    width: 90%;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .book-md-12, .book-md-6, .book-md-4, .book-md-3, .imdb-md-12, .imdb-md-6, .imdb-md-4, .imdb-md-3, .switch-md-12, .switch-md-6, .switch-md-4, .switch-md-3, .switch-md-2 {
+    float: left;
+    margin-bottom: 10px;
+  }
+  .book-md-12 {
+    width: 8.1vw;
+    height: 12vw;
+  }
+  .book-md-6 {
+    width: 16.2vw;
+    height: 24vw;
+  }
+  .book-md-4 {
+    width: 24.3vw;
+    height: 36vw;
+  }
+  .book-md-3 {
+    width: 32.4vw;
+    height: 48vw;
+  }
+  .imdb-md-12 {
+    width: 8.1vw;
+    height: 12vw;
+  }
+  .imdb-md-6 {
+    width: 16.2vw;
+    height: 24vw;
+  }
+  .imdb-md-4 {
+    width: 24.3vw;
+    height: 36vw;
+  }
+  .imdb-md-3 {
+    width: 32.4vw;
+    height: 48vw;
+  }
+  .switch-md-12 {
+    width: 8.1vw;
+    height: 6vw;
+  }
+  .switch-md-6 {
+    width: 16.2vw;
+    height: 12vw;
+  }
+  .switch-md-4 {
+    width: 24.3vw;
+    height: 18vw;
+  }
+  .switch-md-3 {
+    width: 32.4vw;
+    height: 24vw;
+  }
+  .switch-md-2 {
+    width: 48.6vw;
+    height: 24vw;
+  }
+  .container-md {
+    background-color: #808080;
+    width: 95%;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .book-sm-12, .book-sm-6, .book-sm-4, .book-sm-3, .imdb-sm-12, .imdb-sm-6, .imdb-sm-4, .imdb-sm-3, .switch-sm-12, .switch-sm-6, .switch-sm-4, .switch-sm-3, .switch-sm-2 {
+    float: left;
+    margin-bottom: 10px;
+  }
+  .book-sm-12 {
+    width: 8.1vw;
+    height: 12vw;
+  }
+  .book-sm-6 {
+    width: 16.2vw;
+    height: 24vw;
+  }
+  .book-sm-4 {
+    width: 24.3vw;
+    height: 36vw;
+  }
+  .book-sm-3 {
+    width: 32.4vw;
+    height: 48vw;
+  }
+  .imdb-sm-12 {
+    width: 8.1vw;
+    height: 12vw;
+  }
+  .imdb-sm-6 {
+    width: 16.2vw;
+    height: 24vw;
+  }
+  .imdb-sm-4 {
+    width: 24.3vw;
+    height: 36vw;
+  }
+  .imdb-sm-3 {
+    width: 32.4vw;
+    height: 48vw;
+  }
+  .switch-sm-12 {
+    width: 8.1vw;
+    height: 6vw;
+  }
+  .switch-sm-6 {
+    width: 16.2vw;
+    height: 12vw;
+  }
+  .switch-sm-4 {
+    width: 24.3vw;
+    height: 18vw;
+  }
+  .switch-sm-3 {
+    width: 32.4vw;
+    height: 24vw;
+  }
+  .switch-sm-2 {
+    width: 48.6vw;
+    height: 24vw;
+  }
+  .container-sm {
+    background-color: #808080;
+    width: 90%;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
